@@ -36,7 +36,7 @@ Groovy linter, formatter and auto-fixer
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/NicolasVuillamy.vscode-groovy-lint.svg)](https://marketplace.visualstudio.com/items?itemName=NicolasVuillamy.vscode-groovy-lint)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/NicolasVuillamy.vscode-groovy-lint.svg)](https://marketplace.visualstudio.com/items?itemName=NicolasVuillamy.vscode-groovy-lint)
-[![CircleCI](https://circleci.com/gh/nvuillam/vscode-groovy-lint/tree/master.svg?style=shield)](https://circleci.com/gh/nvuillam/vscode-groovy-lint/tree/master)
+[![Test](https://github.com/nvuillam/vscode-groovy-lint/workflows/Test/badge.svg?branch=master)](https://github.com/nvuillam/vscode-groovy-lint/actions?query=workflow%3ATest+branch%3Amaster)
 [![Mega-Linter](https://github.com/nvuillam/vscode-groovy-lint/workflows/Mega-Linter/badge.svg?branch=master)](https://github.com/marketplace/actions/mega-linter)
 
 [Visual Studio Code plugin](https://marketplace.visualstudio.com/items?itemName=NicolasVuillamy.vscode-groovy-lint) embedding npm-groovy-lint
@@ -48,7 +48,6 @@ Groovy linter, formatter and auto-fixer
 
 [![Version](https://img.shields.io/npm/v/sfdx-essentials.svg)](https://npmjs.org/package/sfdx-essentials)
 [![Downloads/total](https://img.shields.io/npm/dt/sfdx-essentials.svg)](https://npmjs.org/package/sfdx-essentials)
-[![CircleCI](https://circleci.com/gh/nvuillam/sfdx-essentials/tree/master.svg?style=shield)](https://circleci.com/gh/nvuillam/sfdx-essentials/tree/master)
 [![Mega-Linter](https://github.com/nvuillam/sfdx-essentials/workflows/Mega-Linter/badge.svg?branch=master)](https://github.com/nvuillam/mega-linter#readme)
 
 Toolbox to ease the use of Salesforce DX for development and deployment
@@ -59,7 +58,6 @@ Toolbox to ease the use of Salesforce DX for development and deployment
 
 [![Version](https://img.shields.io/npm/v/java-caller.svg)](https://npmjs.org/package/java-caller)
 [![Downloads/total](https://img.shields.io/npm/dt/java-caller.svg)](https://npmjs.org/package/java-caller)
-[![CircleCI](https://circleci.com/gh/nvuillam/node-java-caller/tree/master.svg?style=shield)](https://circleci.com/gh/nvuillam/node_java_caller/tree/master)
 [![Mega-Linter](https://github.com/nvuillam/node-java-caller/workflows/Mega-Linter/badge.svg?branch=master)](https://github.com/nvuillam/mega-linter#readme)
 
 Library to easily deliver and execute java applications using node/npm
