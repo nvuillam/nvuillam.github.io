@@ -6,20 +6,20 @@
     <title>Error 404 :(</title>
 
     <script>
-        const destination = windows.location.href;
-        if (windows.location.href.includes("nvuillam.github.io/mega-linter")) {
-            const redirectLocation = windows.location.href.replace(
+        const destination = window.location.href;
+        if (window.location.href.includes("nvuillam.github.io/mega-linter")) {
+            const redirectLocation = window.location.href.replace(
                 "nvuillam.github.io/mega-linter",
                 "megalinter.github.io"
             );
         }
-        document.getElementById("body").innerText = "Redirecting to "+redirectLocation+" ...";
+        document.getElementById("body").innerText = "Redirecting to " + redirectLocation + " ...";
         window.location.href = redirectLocation;
     </script>
 </head>
 
 <body id="body" style="text-align: center">
-Page not found
+    Page not found
 </body>
 
 </html>
