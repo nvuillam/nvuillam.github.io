@@ -6,15 +6,17 @@
     <title>Error 404 :(</title>
 
     <script>
-        const destination = window.location.href;
-        if (window.location.href.includes("nvuillam.github.io/mega-linter")) {
-            const redirectLocation = window.location.href.replace(
-                "nvuillam.github.io/mega-linter",
-                "megalinter.github.io"
-            );
+        document.onload = function () {
+            const destination = window.location.href;
+            if (window.location.href.includes("nvuillam.github.io/mega-linter")) {
+                const redirectLocation = window.location.href.replace(
+                    "nvuillam.github.io/mega-linter",
+                    "megalinter.github.io"
+                );
+            }
+            document.getElementById("body").innerText = "Mega-Linter has move into an organization repository for its V5 !<br/><br/>Redirecting to " + redirectLocation + " ...";
+            window.location.href = redirectLocation;
         }
-        document.getElementById("body").innerText = "Redirecting to " + redirectLocation + " ...";
-        window.location.href = redirectLocation;
     </script>
 </head>
 
