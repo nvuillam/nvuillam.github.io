@@ -2,9 +2,20 @@
 
 ## Who am I
 
+CTO and architect during the day for [Hardis Group](https://www.hardis-group.com/), and Open-Sourcerer during nights and week-ends
+
+![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=nvuillam&theme=dark&show_icons=true)
+
 I love to teach what I know and to learn what I don't :)
 
 > The only stupid questions are the ones you're too shy or too proud to ask
+
+You can follow me and contact me on:
+
+- [LinkedIn](https://www.linkedin.com/in/nicolas-vuillamy)
+- [Medium](https://nicolas.vuillamy.fr/)
+- [StackExchange](https://stackexchange.com/users/8652527)
+- [Twitter](https://twitter.com/NicolasVuillamy)
 
 ## Open-source projects
 
@@ -29,7 +40,7 @@ Analyzes [**37 languages**](https://nvuillam.github.io/mega-linter/#languages), 
 [![Downloads/week](https://img.shields.io/npm/dw/npm-groovy-lint.svg)](https://npmjs.org/package/npm-groovy-lint)
 [![Downloads/total](https://img.shields.io/npm/dt/npm-groovy-lint.svg)](https://npmjs.org/package/npm-groovy-lint)
 [![Mega-Linter](https://github.com/nvuillam/npm-groovy-lint/workflows/Mega-Linter/badge.svg?branch=master)](https://nvuillam.github.io/mega-linter)
-[![GitHub stars](https://img.shields.io/github/stars/nvuillam/npm-groovy-lint?label=Star&maxAge=2592000)](https://GitHub.com/nvuillam/npm-groovy-lint/stargazers/)
+[![GitHub stars](https://img.shields.io/github/stars/nvuillam/npm-groovy-lint?label=stars&cacheSeconds=3600)](https://github.com/nvuillam/npm-groovy-lint/stargazers/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/nvuillam/npm-groovy-lint)](https://hub.docker.com/r/nvuillam/npm-groovy-lint)
 
 Groovy linter, formatter and auto-fixer
@@ -44,7 +55,7 @@ Groovy linter, formatter and auto-fixer
 [![Version](https://vsmarketplacebadge.apphb.com/version/NicolasVuillamy.vscode-groovy-lint.svg)](https://marketplace.visualstudio.com/items?itemName=NicolasVuillamy.vscode-groovy-lint)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/NicolasVuillamy.vscode-groovy-lint.svg)](https://marketplace.visualstudio.com/items?itemName=NicolasVuillamy.vscode-groovy-lint)
 [![Mega-Linter](https://github.com/nvuillam/vscode-groovy-lint/workflows/Mega-Linter/badge.svg?branch=master)](https://github.com/nvuillam/mega-linter#readme)
-[![GitHub stars](https://img.shields.io/github/stars/nvuillam/vscode-groovy-lint.png?label=stars&maxAge=2592000)](https://github.com/nvuillam/vscode-groovy-lint/stargazers/)
+[![GitHub stars](https://img.shields.io/github/stars/nvuillam/vscode-groovy-lint.png?label=stars&cacheSeconds=3600)](https://github.com/nvuillam/vscode-groovy-lint/stargazers/)
 
 [Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=NicolasVuillamy.vscode-groovy-lint) embedding npm-groovy-lint
 
@@ -59,7 +70,7 @@ Groovy linter, formatter and auto-fixer
 [![Downloads/week](https://img.shields.io/npm/dw/sfdx-hardis.svg)](https://npmjs.org/package/sfdx-hardis)
 [![Downloads/total](https://img.shields.io/npm/dt/sfdx-hardis.svg)](https://npmjs.org/package/sfdx-hardis)
 ![Docker Pulls](https://img.shields.io/docker/pulls/hardisgroupcom/sfdx-hardis)
-[![GitHub stars](https://img.shields.io/github/stars/hardisgroupcom/sfdx-hardis?maxAge=2592000)](https://github.com/hardisgroupcom/sfdx-hardis/stargazers/)
+[![GitHub stars](https://img.shields.io/github/stars/hardisgroupcom/sfdx-hardis?cacheSeconds=3600)](https://github.com/hardisgroupcom/sfdx-hardis/stargazers/)
 [![GitHub contributors](https://img.shields.io/github/contributors/hardisgroupcom/sfdx-hardis.svg)](https://gitHub.com/hardisgroupcom/sfdx-hardis/graphs/contributors/)
 [![Mega-Linter](https://github.com/hardisgroupcom/sfdx-hardis/workflows/Mega-Linter/badge.svg?branch=main)](https://github.com/hardisgroupcom/sfdx-hardis/actions?query=workflow%3AMega-Linter+branch%3Amain)
 
@@ -75,7 +86,7 @@ Salesforce DX plugin with lots of useful commands
 [![Version](https://vsmarketplacebadge.apphb.com/version/NicolasVuillamy.vscode-sfdx-hardis.svg)](https://marketplace.visualstudio.com/items?itemName=NicolasVuillamy.vscode-sfdx-hardis)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/NicolasVuillamy.vscode-sfdx-hardis.svg)](https://marketplace.visualstudio.com/items?itemName=NicolasVuillamy.vscode-sfdx-hardis)
 [![Mega-Linter](https://github.com/hardisgroupcom/vscode-sfdx-hardis/workflows/Mega-Linter/badge.svg?branch=master)](https://github.com/nvuillam/mega-linter#readme)
-[![GitHub stars](https://img.shields.io/github/stars/hardisgroupcom/vscode-sfdx-hardis.png?label=Star&maxAge=2592000)](https://github.com/hardisgroupcom/vscode-sfdx-hardis/stargazers/)
+[![GitHub stars](https://img.shields.io/github/stars/hardisgroupcom/vscode-sfdx-hardis.png?label=stars&cacheSeconds=3600)](https://github.com/hardisgroupcom/vscode-sfdx-hardis/stargazers/)
 
 [Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=NicolasVuillamy.vscode-sfdx-hardis) embedding sfdx-hardis but also other plugins
 
@@ -86,8 +97,10 @@ Salesforce DX plugin with lots of useful commands
 ### sfdx-essentials
 
 [![Version](https://img.shields.io/npm/v/sfdx-essentials.svg)](https://npmjs.org/package/sfdx-essentials)
+[![Downloads/week](https://img.shields.io/npm/dw/sfdx-essentials.svg)](https://npmjs.org/package/sfdx-essentials)
 [![Downloads/total](https://img.shields.io/npm/dt/sfdx-essentials.svg)](https://npmjs.org/package/sfdx-essentials)
 [![Mega-Linter](https://github.com/nvuillam/sfdx-essentials/workflows/Mega-Linter/badge.svg?branch=master)](https://github.com/nvuillam/mega-linter#readme)
+[![GitHub stars](https://img.shields.io/github/stars/nvuillam/sfdx-essentials?label=stars&cacheSeconds=3600)](https://github.com/nvuillam/sfdx-essentials/stargazers/)
 
 Toolbox to ease the use of Salesforce DX for development and deployment
 
@@ -101,7 +114,7 @@ Toolbox to ease the use of Salesforce DX for development and deployment
 [![Downloads/week](https://img.shields.io/npm/dw/java-caller.svg)](https://npmjs.org/package/java-caller)
 [![Downloads/total](https://img.shields.io/npm/dt/java-caller.svg)](https://npmjs.org/package/java-caller)
 [![Mega-Linter](https://github.com/nvuillam/node-java-caller/workflows/Mega-Linter/badge.svg)](https://github.com/nvuillam/mega-linter#readme)
-[![GitHub stars](https://img.shields.io/github/stars/nvuillam/node-java-caller?label=Star&maxAge=2592000)](https://GitHub.com/nvuillam/node-java-caller/stargazers/)
+[![GitHub stars](https://img.shields.io/github/stars/nvuillam/node-java-caller?label=stars&cacheSeconds=3600)](https://GitHub.com/nvuillam/node-java-caller/stargazers/)
 
 Library to easily deliver and execute java applications using node/npm
 
@@ -115,7 +128,7 @@ Library to easily deliver and execute java applications using node/npm
 [![Downloads/week](https://img.shields.io/npm/dw/node-sarif-builder.svg)](https://npmjs.org/package/node-sarif-builder)
 [![Downloads/total](https://img.shields.io/npm/dt/node-sarif-builder.svg)](https://npmjs.org/package/node-sarif-builder)
 [![Mega-Linter](https://github.com/nvuillam/node-sarif-builder/workflows/MegaLinter/badge.svg?branch=main)](https://megalinter.github.io/)
-[![GitHub stars](https://img.shields.io/github/stars/nvuillam/node-sarif-builder?label=Star&maxAge=3600)](https://github.com/nvuillam/node-sarif-builder/stargazers/)
+[![GitHub stars](https://img.shields.io/github/stars/nvuillam/node-sarif-builder?label=stars&cacheSeconds=3600)](https://github.com/nvuillam/node-sarif-builder/stargazers/)
 
 Module to easily build SARIF logs within a javascript / typescript application
 
@@ -129,15 +142,29 @@ Module to easily build SARIF logs within a javascript / typescript application
 [![Downloads/week](https://img.shields.io/npm/dw/markdown-table-formatter.svg)](https://npmjs.org/package/markdown-table-formatter)
 [![Downloads/total](https://img.shields.io/npm/dt/markdown-table-formatter.svg)](https://npmjs.org/package/markdown-table-formatter)
 [![Mega-Linter](https://github.com/nvuillam/markdown-table-formatter/workflows/Mega-Linter/badge.svg)](https://github.com/nvuillam/mega-linter#readme)
-[![GitHub stars](https://img.shields.io/github/stars/nvuillam/markdown-table-formatter?label=stars&maxAge=2592000)](https://github.com/nvuillam/markdown-table-formatter/stargazers/)
+[![GitHub stars](https://img.shields.io/github/stars/nvuillam/markdown-table-formatter?label=stars&cacheSeconds=3600)](https://github.com/nvuillam/markdown-table-formatter/stargazers/)
 
 Utility to easily format markdown tables in files
 
 - Repository: https://github.com/nvuillam/markdown-table-formatter
 
-## Other
+## Latest articles
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=nvuillam&theme=dark&show_icons=true)
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@nicolasvuillamy/0"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@nicolasvuillamy/0" alt="Recent Article 0">
+  
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@nicolasvuillamy/1"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@nicolasvuillamy/1" alt="Recent Article 1">
+    
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@nicolasvuillamy/2"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@nicolasvuillamy/2" alt="Recent Article 2">
+  
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@nicolasvuillamy/3"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@nicolasvuillamy/3" alt="Recent Article 3">
+  
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@nicolasvuillamy/4"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@nicolasvuillamy/4" alt="Recent Article 4">
+
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@nicolasvuillamy/5"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@nicolasvuillamy/5" alt="Recent Article 5">
+  
+## Some stats
+
+![nvuillam's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nvuillam&langs_count=8&theme=radical&layout=compact&card_width=445)
 
 [![Stackexchange profile](https://stackexchange.com/users/flair/8652527.png)](https://stackexchange.com/users/8652527)
 
