@@ -1,5 +1,7 @@
 # Nicolas Vuillamy
 
+[![committers.top badge](https://user-badge.committers.top/france_public/nvuillam.svg)](https://user-badge.committers.top/france_public/nvuillam)
+
 ## Who am I
 
 CTO and architect during the day for [Hardis Group](https://www.hardis-group.com/), and [Open-Sourcerer](#open-source-projects) during nights and week-ends
