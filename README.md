@@ -1,5 +1,7 @@
 # Nicolas Vuillamy
 
+![image](https://github.com/user-attachments/assets/699bb0e2-d182-4b6c-8726-25626d7bf526)
+
   * [Who am I](#who-am-i)
   * [Open-source projects](#open-source-projects)
   * [Latest articles](#latest-articles)
@@ -14,8 +16,8 @@
 
 - **CTO** during the day at [Cloudity](https://www.cloudity.com/)
 - [**Open-Sourcerer**](#open-source-projects) during nights and week-ends (and also sometimes during the day thanks to Cloudity's [sfdx-hardis initiative](https://sfdx-hardis.cloudity.com/) !)
-- Sometimes [**Writer on Medium**](#latest-articles)
-- Sometimes [**Speaker**](#speaker-activities)
+- Sometimes [**Writer on Medium, SalesforceDevOps.net and paper press**](#latest-articles)
+- Sometimes [**Speaker in conferences**](#speaker-activities)
 - Sometimes participant to [**Webinars & Podcasts**](#webinars---podcasts)
 
 > I love to teach what I know and to learn what I don't know :)
@@ -254,9 +256,17 @@ _(paper, in [Programmez Magazine (FR)](https://www.programmez.com/))_
 
 ### Agenda
 
-- [Wir Sind Ohana](https://www.wirsindohana.de/), Berlin: Automate the Monitoring of your Salesforce orgs with open-source tools only !, with Yosra Saidani
+Nothing official yet, some Call For Speakers in preparation :)
 
 ### Past events
+
+- [Dreamforce 2024](https://www.salesforce.com/dreamforce/), San Francisco: [Save the Day by Monitoring Your Org with Open-Source Tools](https://reg.salesforce.com/flow/plus/df24/sessioncatalog/page/catalog/session/1718915808069001Q7HH), with Olga Shirikova
+
+[![Video](https://img.youtube.com/vi/NxiLiYeo11A/0.jpg)](https://www.youtube.com/watch?v=NxiLiYeo11A)
+
+- [Wir Sind Ohana](https://www.wirsindohana.de/), Berlin: Automate the Monitoring of your Salesforce orgs with open-source tools only !, with Yosra Saidani
+
+[![Video](https://github.com/user-attachments/assets/0310d124-ebb4-4b56-85a1-64f0f75c9ee3)](https://www.youtube.com/watch?v=xGbT6at7RZ0)
 
 - [Polish Dreamin '24](https://coffeeforce.pl/dreamin/), Wroclaw, Poland: [Easy and complete Salesforce CI/CD with open-source only !](https://coffeeforce.pl/dreamin/speaker/nicolas-vuillamy/)
 
