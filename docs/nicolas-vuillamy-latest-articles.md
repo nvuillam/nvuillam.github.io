@@ -1,5 +1,3 @@
-## Latest articles
-
 [![image](https://github.com/nvuillam/nvuillam/assets/17500430/29d45f8d-1b10-444a-9992-e8fb19b7bdf9)](https://www.programmez.com/magazine/article/salesforce-cli-le-compagnon-indispensable-dune-plateforme-low-code)
 
 _(paper, in [Programmez Magazine (FR)](https://www.programmez.com/))_

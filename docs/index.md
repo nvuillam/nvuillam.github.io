@@ -7,10 +7,10 @@
 ## Who am I
 
 - **CTO** during the day at [Cloudity](https://www.cloudity.com/)
-- [**Open-Sourcerer**](#open-source-projects) during nights and week-ends (and also sometimes during the day thanks to Cloudity's [sfdx-hardis initiative](https://sfdx-hardis.cloudity.com/) !)
-- Sometimes [**Writer on Medium, SalesforceDevOps.net and paper press**](#latest-articles)
-- Sometimes [**Speaker in conferences**](#speaker-activities)
-- Sometimes participant to [**Webinars & Podcasts**](#webinars---podcasts)
+- [**Open-Sourcerer**](nicolas-vuillamy-open-source-projects.md) during nights and week-ends (and also sometimes during the day thanks to Cloudity's [sfdx-hardis initiative](https://sfdx-hardis.cloudity.com/) !)
+- Sometimes [**Writer on Medium, SalesforceDevOps.net and paper press**](nicolas-vuillamy-latest-articles.md)
+- Sometimes [**Speaker in conferences**](nicolas-vuillamy-speaker-activities.md)
+- Sometimes participant to [**Webinars & Podcasts**](nicolas-vuillamy-webinars-podcasts.md)
 
 > I love to teach what I know and to learn what I don't know :)
 

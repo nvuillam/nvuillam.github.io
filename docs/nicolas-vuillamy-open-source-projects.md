@@ -1,5 +1,3 @@
-## Open-source projects
-
 I created and still maintain several open-source projects:
 
 - [MegaLinter](#megalinter)

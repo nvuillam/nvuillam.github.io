@@ -1,5 +1,3 @@
-## Some stats
-
 [![committers.top badge](https://user-badge.committers.top/france_public/nvuillam.svg)](https://user-badge.committers.top/france_public/nvuillam)
 
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=nvuillam&theme=dark&show_icons=true)

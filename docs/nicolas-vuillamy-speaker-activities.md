@@ -1,5 +1,3 @@
-## Speaker activities
-
 ### Agenda
 
 I've submitted to call for speakers of 2026 Dreamin events in Berlin, Wroclaw, Valencia & Prague... let's wait and see, hoping I'll have the honor to be selected :)

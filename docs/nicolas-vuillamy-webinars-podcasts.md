@@ -1,5 +1,3 @@
-## Webinars & Podcasts
-
 - DevOps Diaries with Jack McCurdy, 2025: _**Episode 067 — Nicolas Vuillamy: CTO, DevOps enthusiast, and open-source champion!**_
 
 [![Video](https://github.com/user-attachments/assets/9896613c-9eb1-49d6-8769-3a91c84a12fa)](https://www.youtube.com/watch?v=uNUMt4TFC7w)

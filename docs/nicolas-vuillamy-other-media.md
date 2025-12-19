@@ -1,5 +1,3 @@
-## Other media
-
 - Article (FR) on [Salesforce France blog](https://www.salesforce.com/fr/blog/nicolas-vuillamy-salesforce/) by [Foucauld Deceuninck](https://www.linkedin.com/in/foucauld-deceuninck/), 2024
 
  [![image](https://github.com/user-attachments/assets/5d358f5a-45f6-4ae0-bc7e-f269706f1659)](https://www.salesforce.com/fr/blog/nicolas-vuillamy-salesforce/)

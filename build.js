@@ -8,6 +8,37 @@ const indexPath = path.join(docsDir, 'index.md');
 const mkdocsPath = path.join(cwd, 'mkdocs.yml');
 const prefix = 'nicolas-vuillamy-';
 
+// Ensure `docs/index.md` exists by copying `README.md` at the start of the
+// build. This mirrors previous behavior when the copy was performed in the
+// CI workflow.
+const readmePath = path.join(cwd, 'README.md');
+if (fs.existsSync(readmePath)) {
+  if (!fs.existsSync(docsDir)) fs.mkdirSync(docsDir, { recursive: true });
+  try {
+    // Use COPYFILE_FICLONE_FORCE to attempt an efficient copy and ensure the
+    // destination is overwritten even if it already exists.
+    const flags = fs.constants && fs.constants.COPYFILE_FICLONE_FORCE ? fs.constants.COPYFILE_FICLONE_FORCE : 0;
+    fs.copyFileSync(readmePath, indexPath, flags);
+    console.log('Copied README.md to docs/index.md (overwritten)');
+  } catch (e) {
+    // Some platforms/runners don't support the copyfile syscall and will
+    // return ENOSYS / ENOTSUP. Fall back to a manual read/write to ensure the
+    // file is still copied and overwritten.
+    const fallbackCodes = new Set(['ENOSYS', 'ENOTSUP', 'EXDEV', 'EINVAL']);
+    if (e && fallbackCodes.has(e.code)) {
+      try {
+        const data = fs.readFileSync(readmePath);
+        fs.writeFileSync(indexPath, data);
+        console.log('Copied README.md to docs/index.md via read/write fallback (overwritten)');
+      } catch (e2) {
+        console.error('Failed to copy README.md to docs/index.md via fallback:', e2.message);
+      }
+    } else {
+      console.error('Failed to copy README.md to docs/index.md:', e.message);
+    }
+  }
+}
+
 function slugify(s){
   return s.toString().toLowerCase()
     .replace(/[#_*`\[\]()]/g,'')
@@ -63,17 +94,56 @@ if (remaining.length > 0) {
   introLines = introLines.concat(['']).concat(first.lines);
 }
 
-remaining.forEach((sec, i) => {
+// First pass: compute filenames for all sections to be generated so we can
+// replace internal anchor links (#anchor) with real links to generated pages.
+const planned = remaining.map((sec, i) => {
   const title = sec.title || `Page ${i+1}`;
   const slug = slugify(title);
   let filename = `${prefix}${slug}.md`;
-  // avoid collisions by appending a counter when needed
+  return { sec, title, slug, filename };
+});
+
+// Resolve filename collisions (on-disk and within planned set)
+const used = new Set(fs.readdirSync(docsDir));
+planned.forEach(p => {
+  let filename = p.filename;
   let counter = 1;
-  while (fs.existsSync(path.join(docsDir, filename))) {
-    filename = `${prefix}${slug}-${counter}.md`;
+  while (used.has(filename)) {
+    filename = `${prefix}${p.slug}-${counter}.md`;
     counter++;
   }
-  const body = sec.lines.join('\n').trim() + '\n';
+  p.filename = filename;
+  used.add(filename);
+});
+
+// Build a map of slug -> filename for anchor replacement
+const slugToFile = {};
+planned.forEach(p => { slugToFile[p.slug] = p.filename; });
+
+function replaceAnchorLinks(text) {
+  return text.replace(/\[([^\]]+)\]\(#([^\)]+)\)/g, (m, label, anchor) => {
+    const norm = slugify(anchor);
+    if (slugToFile[norm]) return `[${label}](${slugToFile[norm]})`;
+    return m;
+  });
+}
+
+// Second pass: write files with anchors replaced
+planned.forEach((p, i) => {
+  const sec = p.sec;
+  const title = p.title;
+  const filename = p.filename;
+  // Build page body: remove the H2 title line (first line) from generated page
+  // and trim leading blank lines so the page starts with the content paragraph.
+  const contentLines = sec.lines.slice();
+  if (contentLines.length > 0 && /^##\s+/.test(contentLines[0])) {
+    contentLines.shift();
+  }
+  while (contentLines.length > 0 && contentLines[0].trim() === '') {
+    contentLines.shift();
+  }
+  let body = contentLines.join('\n').trim() + '\n';
+  body = replaceAnchorLinks(body);
   fs.writeFileSync(path.join(docsDir, filename), body);
   generated.push({ title, filename });
 });
@@ -88,6 +158,11 @@ if (generated.length) {
     newIndex += `- [${g.title}](${g.filename})\n`;
   });
   newIndex += '\n';
+}
+// Replace anchor links in rebuilt index.md so references to sections point to
+// their generated pages when possible.
+if (typeof replaceAnchorLinks === 'function') {
+  newIndex = replaceAnchorLinks(newIndex);
 }
 fs.writeFileSync(indexPath, newIndex);
 
@@ -120,3 +195,4 @@ if (fs.existsSync(mkdocsPath)){
 }
 
 console.log('Done.');
+
