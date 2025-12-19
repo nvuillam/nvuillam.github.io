@@ -40,3 +40,9 @@ extra:
   generator: false
 nav:
   - "Home": "index.md"
+  - "Open-source projects": "nicolas-vuillamy-open-source-projects.md"
+  - "Speaker activities": "nicolas-vuillamy-speaker-activities.md"
+  - "Webinars & Podcasts": "nicolas-vuillamy-webinars-podcasts.md"
+  - "Latest articles": "nicolas-vuillamy-latest-articles.md"
+  - "Other media": "nicolas-vuillamy-other-media.md"
+  - "Some stats": "nicolas-vuillamy-some-stats.md"

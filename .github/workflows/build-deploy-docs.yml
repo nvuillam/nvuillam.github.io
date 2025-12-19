@@ -13,6 +13,13 @@ jobs:
           python-version: 3.x
       - run: pip install mkdocs-material mdx_truly_sane_lists
       - run: cp -f README.md docs/index.md
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Generate docs pages
+        run: node build.js
+
       - run: mkdocs gh-deploy --force
 
       # This step will evaluate the repo status and report the change
