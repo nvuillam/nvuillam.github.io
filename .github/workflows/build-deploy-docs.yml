@@ -25,7 +25,17 @@ jobs:
       - name: Check if there are changes
         id: changes
         if: ${{ success() }} || ${{ failure() }}
-        uses: UnicornGlobal/has-changes-action@v1.0.12
+        run: |
+          # Allow actions runner to access the workspace when ownership is flagged
+          git config --global --add safe.directory "$GITHUB_WORKSPACE" || true
+
+          # Detect any changes in the working tree (including untracked files)
+          git_status=$(git status --porcelain)
+          if [ -n "$git_status" ]; then
+            echo "changed=1" >> $GITHUB_OUTPUT
+          else
+            echo "changed=0" >> $GITHUB_OUTPUT
+          fi
 
       # Push new commit if applicable
       - name: Prepare commit
