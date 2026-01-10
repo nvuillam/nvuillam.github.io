@@ -6,7 +6,7 @@
   * [Open-source projects](#open-source-projects)
   * [Speaker activities](#speaker-activities)
     * [Agenda](#agenda)
-    * [Past Events](#past-events)
+    * [Past Events](#past-events)Fwro
   * [Webinars & Podcasts](#webinars--podcasts)
   * [Latest articles](#latest-articles)
   * [Other media](#other-media)
@@ -213,19 +213,19 @@ Collect information about dependencies between a github repo and other repositor
 
 #### Polish Dreamin '26
 
-<img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/611b1a0d-f966-4443-a641-c357a14ef099" />
-
 Refresh your full sandboxes without needing to reconfigure everything
 
 Wroclaw, Poland, 20/03/2026
 
-#### Dream Ole '26
+<img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/611b1a0d-f966-4443-a641-c357a14ef099" />
 
-<img width="976" height="549" alt="Untitled design (18)" src="https://github.com/user-attachments/assets/352bb6df-0b38-4ddb-94f0-8c95dd848bc5" />
+#### [Dream Ole '26](https://dreamole.es/)
 
 Refresh your full sandboxes without needing to reconfigure everything
 
 Valencia, Spain, 27/03/2026
+
+<img width="976" height="549" alt="Untitled design (18)" src="https://github.com/user-attachments/assets/352bb6df-0b38-4ddb-94f0-8c95dd848bc5" />
 
 ### Past events
 
